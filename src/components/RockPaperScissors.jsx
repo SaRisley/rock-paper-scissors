@@ -10,6 +10,9 @@ const RockPaperScissors = () => {
 
     return (
         <div>
+            <div className="bg"></div>
+            <div className="bg bg2"></div>
+            <div className="bg bg3"></div>
             <Choice userChoice={userChoice} setUserChoice={setUserChoice} computerChoice={computerChoice} setComputerChoice={setComputerChoice}></Choice>
             <DecideWinOrLose userChoice={userChoice} computerChoice={computerChoice} winOrLose={winOrLose} setWinOrLose={setWinOrLose}></DecideWinOrLose>
         </div>
