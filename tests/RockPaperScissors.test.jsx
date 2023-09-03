@@ -7,9 +7,9 @@ describe("Choice", () => {
     expect(screen.getByText("Make your choice!"));
   });
 
-  it("Should render with the text `computer deciding...` if no choice has been made yet", () => {
+  it("Should render with the text `The computer is thinking...` if no choice has been made yet", () => {
     render((<RockPaperScissors/>));
-    expect(screen.getByText("computer deciding..."));
+    expect(screen.getByText("The computer is thinking..."));
   });
 
   it("Should initially render with no emojis if no choice has been made yet", () => {
