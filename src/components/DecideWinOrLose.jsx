@@ -12,8 +12,6 @@ useEffect(() => {
         }else{
             props.setWinOrLose("YOU LOSE")
         }
-        console.log(props.computerChoice);
-        console.log(props.userChoice);
     }
 }, [props.userChoice, props.computerChoice])
 
