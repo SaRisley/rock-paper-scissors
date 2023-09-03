@@ -11,7 +11,7 @@ const Choice = (props) => {
     return(
         <div>
             <h1>Make your choice!</h1>
-            <p data-testid="user-choice">{props.userChoice}</p>
+            <p className="emoji" data-testid="user-choice">{props.userChoice}</p>
             <button onClick={() => {props.setUserChoice("🪨"); randomChoice();}}>Rock</button>
             <button onClick={() => {props.setUserChoice("📄"); randomChoice();}}>Paper</button>
             <button onClick={() => {props.setUserChoice("✂️"); randomChoice();}}>Scissors</button>
