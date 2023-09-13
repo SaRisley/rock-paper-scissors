@@ -1,6 +1,8 @@
 This is a simple Rock, Paper, Scissors react web app which was used to experiment with React and sharing state/props amongst components. 
 
-Testsing with React Testing Library.
+This was also used to experiement with creating an exciting, engaging frontend and UI. 
+
+This project also allowed me to experiement with deploying an app via AWS and was sucessfully deployed via AWS Amplify: https://main.d1vu96kenrpefg.amplifyapp.com/
 
 
 # React Application Template
