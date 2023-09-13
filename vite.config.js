@@ -9,4 +9,11 @@ export default defineConfig({
     environment: "jsdom", // We are testing a DOM environment, not Node
     setupFiles: "./tests/setup.js",
   },
+  resolve: {
+    alias: {
+      "./runtimeConfig": "./runtimeConfig.browser",
+    },
+  },
 });
+
+

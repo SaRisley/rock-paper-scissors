@@ -4,7 +4,7 @@ import RockPaperScissors from "./components/RockPaperScissors";
 function App() {
   return (
     <>
-      <RockPaperScissors></RockPaperScissors>
+      <RockPaperScissors/>
     </>
   );
 }
